@@ -27,6 +27,14 @@ We designed a custom CNN model that achieved higher validation accuracy compared
 #### Custom CNN Architecture
 ![Custom CNN Architecture](https://github.com/samudrarana/Custom_CNN/blob/main/Custom_CNN_Architecture.jpeg)
 
+#### Result
+
+The model was trained for 30 epochs using real-time data augmentation applied to the training dataset, with a split for training and validation sets to monitor performance and prevent overfitting. The custom CNN model achieved an impressive validation accuracy of 98.8%, significantly higher than pre-trained models' accuracies.
+
+![Performance of Our Proposed Custom CNN Model](https://github.com/samudrarana/Custom_CNN/blob/main/Model_Accuracy_%26_Loss_of_Custom_CNN.png)
+
+![Classification Report](https://github.com/samudrarana/Custom_CNN/blob/main/Classification_Report.png)
+
 ### Validation Accuracy Comparison
 
 Here are the validation accuracies of the different models:
@@ -39,9 +47,14 @@ Here are the validation accuracies of the different models:
 | ResNet50         | 0.823810             |
 | **Custom CNN**   | **0.988095**         |
 
+Note: All models are trained for 30 epoches with same parameters.
+
 ![Validation Accuracy of Different Models](https://github.com/samudrarana/Custom_CNN/blob/main/Comparison_Analysis_Bar_Graph.png)
 
 ![Model Accuracies](https://github.com/samudrarana/Custom_CNN/blob/main/Model_Accuracies.png)
 
 ## Custom CNN Model Code
 Here is the code for our [Custom CNN model](https://github.com/samudrarana/Custom_CNN/blob/main/Custom_CNN_Model.py).
+
+
+## Note: The names 'Custom CNN' and 'Improved Custom CNN' refer to the same model. It was initially trained under the name 'Improved Custom CNN'.
